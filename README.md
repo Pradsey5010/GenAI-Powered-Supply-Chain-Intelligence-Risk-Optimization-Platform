@@ -110,6 +110,13 @@ KPIs covered:
 
 ```text
 .
+├── dashboard_data
+│   ├── demand_forecast_vs_actual.csv
+│   ├── stockout_probability.csv
+│   ├── supplier_risk_scores.csv
+│   ├── anomaly_alerts.csv
+│   ├── forecast_accuracy_metrics.csv
+│   └── kpi_summary.csv
 ├── src/supply_chain_ai
 │   ├── data.py
 │   ├── forecasting.py
@@ -160,6 +167,12 @@ Your CSV must contain:
 python scripts/run_pipeline.py --input-csv path/to/data.csv --output-dir outputs
 ```
 
+### Option C: Generate + publish Power BI CSVs into tracked folder
+
+```bash
+bash scripts/publish_dashboard_data.sh
+```
+
 ---
 
 ## Ask the GenAI Copilot
@@ -186,6 +199,11 @@ python scripts/ask_copilot.py \
 ### Dashboard artifacts
 
 - `outputs/dashboard/*.csv`
+
+### GitHub-tracked dashboard dataset folder
+
+- `dashboard_data/*.csv`
+- This folder is intended for direct Power BI Desktop import or GitHub raw URL imports.
 
 ### Copilot artifacts
 

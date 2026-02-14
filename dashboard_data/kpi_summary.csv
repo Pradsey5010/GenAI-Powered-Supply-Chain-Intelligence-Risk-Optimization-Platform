@@ -1,0 +1,7 @@
+kpi,value
+service_level_pct,98.37
+fill_rate_pct,98.5
+lead_time_variability_pct,22.82
+forecast_error_pct,2.84
+anomaly_rate_pct,3.34
+high_risk_supplier_count,2.0

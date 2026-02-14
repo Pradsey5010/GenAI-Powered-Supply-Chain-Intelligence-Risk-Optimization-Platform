@@ -1,0 +1,489 @@
+date,region,product_id,supplier_id,sales_qty,delivery_delay_days,transport_cost,anomaly_score,alert_severity,anomaly_reason
+2024-11-27,East,Widget_D,SUP-02,59.349509784092774,4.020935420664935,49.709512034177216,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-09-06,North,Widget_D,SUP-05,46.87861934263415,4.731978220375415,70.08126475172568,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-08-07,South,Widget_B,SUP-03,27.494328681400297,3.04200864344858,58.36045181821756,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-09,East,Widget_C,SUP-05,32.447756099491116,4.4797716732594495,47.1204484961893,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-22,East,Widget_A,SUP-05,39.103025737532874,5.073994839241047,64.00074997933228,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-17,West,Widget_E,SUP-04,30.09802668934204,4.642206175730383,70.44463048558377,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-16,North,Widget_A,SUP-04,48.16299427912274,5.615129245865396,49.76003939272457,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-15,South,Widget_C,SUP-05,37.82429401987418,4.266837362767329,50.65219460010667,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-23,East,Widget_E,SUP-05,31.29916678044602,4.060976413552627,63.79895955788073,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-23,West,Widget_C,SUP-01,39.97756857409642,5.488452813874215,73.07771370229167,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-19,East,Widget_E,SUP-05,23.82643116537075,4.474249304444896,55.158459949554214,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-20,North,Widget_D,SUP-02,78.04105924593026,3.98892440333927,61.078398608984145,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-02-20,East,Widget_D,SUP-04,57.75973533844654,5.6939629659663735,74.05633961283868,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-02-20,West,Widget_A,SUP-05,70.01438867252439,3.154424136091298,48.583088069202994,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-11-19,East,Widget_A,SUP-03,54.59037215784387,4.005642824854675,69.93861914567742,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-10-31,West,Widget_B,SUP-06,43.91294984995507,6.537260753131787,60.38158202792417,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-08-29,North,Widget_D,SUP-01,43.54216217916684,6.106595210604323,66.67753143522539,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-08-16,West,Widget_A,SUP-04,50.74349232006422,4.997836475072624,51.740624876784366,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-07-23,South,Widget_E,SUP-06,22.007813444089006,6.663837674713213,70.22787036243861,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-06-23,North,Widget_D,SUP-01,44.23665732759749,5.846219571019914,57.486804801374035,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-05-25,West,Widget_B,SUP-02,32.367487575455186,5.38954939083418,56.09466744676325,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-03-03,East,Widget_A,SUP-04,47.488446933578224,4.67976682779869,68.61381416886975,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-02-10,North,Widget_C,SUP-03,31.570589042002116,3.5946691283556618,71.17453699046825,5,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-12-29,North,Widget_C,SUP-02,87.46911114975781,3.5702841538436907,66.52183212895918,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-12-19,East,Widget_E,SUP-02,43.111794057726755,6.83150254204095,66.05424965590444,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-12-16,North,Widget_B,SUP-04,97.79663813908066,4.264924275910279,53.55115367053655,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-12-11,West,Widget_A,SUP-04,98.25724997736886,4.086000566484875,55.675480666436215,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-11-23,East,Widget_D,SUP-05,72.612967312654,4.0110847069475835,68.85852559089844,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-11-23,North,Widget_C,SUP-01,89.76147723667566,4.654224763761796,66.76685317583653,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-11-23,West,Widget_D,SUP-03,59.71788498536758,6.631819142288658,68.29984399747813,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-11-20,South,Widget_A,SUP-03,117.10303156691761,5.113302479806941,54.827404638178386,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-11-20,West,Widget_B,SUP-02,99.47587057321732,4.080067889853035,70.63960233361708,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-11-19,East,Widget_A,SUP-04,84.09765611418759,2.6888491947696123,66.95474311959171,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-11-17,West,Widget_D,SUP-02,75.22159111984377,3.775288896464786,68.2555906261725,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-11-09,West,Widget_D,SUP-06,103.9251837595168,5.995970936169434,71.69477343462869,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-10-26,South,Widget_C,SUP-03,35.56463836952987,3.2871925153318085,52.777894328905674,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-10-20,East,Widget_A,SUP-06,64.92364843400206,4.587906548491004,56.54584927908881,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-10-11,West,Widget_D,SUP-02,51.61014839292925,3.5054483463930364,57.70131163478231,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-10-09,North,Widget_E,SUP-01,28.150514026846693,3.4744514349484197,59.97053186136079,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-10-07,East,Widget_B,SUP-05,53.20511834978592,3.0226379986458385,64.0510640439778,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-10-04,West,Widget_E,SUP-01,48.3886364971327,4.805656305812753,73.00593707796025,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-09-29,North,Widget_A,SUP-02,75.45396889859803,4.696742164804075,72.71145903148458,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-09-26,South,Widget_A,SUP-05,83.65828262859448,4.476777596178215,59.8187762631801,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-09-22,South,Widget_A,SUP-04,57.40125894977906,3.9563081675042238,59.787166545357856,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-09-19,North,Widget_B,SUP-04,77.8948417573527,6.340577262957183,66.89900019011382,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-09-17,West,Widget_E,SUP-02,37.102712833063926,5.745892786788506,63.76663308404112,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-09-16,North,Widget_B,SUP-05,92.41853845218063,3.7315485683284013,54.68833077340815,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-09-04,South,Widget_C,SUP-05,42.15702618294806,4.941176806383809,71.67639024490015,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-09-01,North,Widget_A,SUP-06,80.05249342393441,6.924484891319583,72.14667745770578,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-08-25,East,Widget_B,SUP-05,70.5552105500556,3.446453435629311,51.04817776600602,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-08-06,South,Widget_E,SUP-04,26.356604416097547,4.392924511162059,58.521709818645874,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-08-04,North,Widget_A,SUP-06,108.52211746168531,6.2660019849546655,75.13538454178709,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-07-27,West,Widget_A,SUP-04,69.66906532509066,4.996424684788444,76.53604850665917,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-07-20,East,Widget_E,SUP-01,19.01231447540108,4.7388726750222085,66.16235778653474,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-07-18,North,Widget_D,SUP-04,65.64195773890808,6.4362259491324325,71.4760052321858,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-07-13,South,Widget_D,SUP-04,77.61276929450528,4.775786653763765,65.10962936903705,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-07-04,North,Widget_D,SUP-03,114.06949776572556,5.256721549202498,72.62925050049242,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-30,North,Widget_D,SUP-01,92.67490860872056,6.754090777065459,67.1010357290793,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-27,South,Widget_A,SUP-03,97.6380361350773,5.140441118595791,74.13964686629852,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-26,East,Widget_E,SUP-01,15.86992585919132,0.7124718523103708,50.764744907186106,4,high,"sudden_sales_drop, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-20,South,Widget_C,SUP-03,30.871726404317464,1.227179096978324,45.83100681687962,4,high,"sudden_sales_drop, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-15,East,Widget_A,SUP-02,43.055445014752344,4.198717010330345,65.84749786222955,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-13,South,Widget_C,SUP-01,42.762346983266404,3.2169595085438316,47.32503944142746,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-12,South,Widget_E,SUP-01,34.19461722591856,1.9332416670114223,50.31781995564899,4,high,"sudden_sales_drop, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-08,West,Widget_A,SUP-04,53.94020631284345,5.75597151093862,67.35453186848083,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-06-05,East,Widget_B,SUP-02,52.757886525131674,6.000006113670325,69.3463764119781,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-04,East,Widget_C,SUP-02,85.9600695750372,6.4987953328599595,62.42438905921237,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-03,South,Widget_E,SUP-03,31.00449918808134,3.9080277018356036,65.83447306949674,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-28,West,Widget_E,SUP-05,35.620904070233216,3.715352687835276,63.84530875806427,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-23,South,Widget_D,SUP-04,53.27594392202547,4.4021273925364905,48.03047011169235,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-12,South,Widget_A,SUP-04,90.53574648037096,3.67585999783418,55.93149912679854,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-09,West,Widget_A,SUP-06,45.69118667782978,5.475413892883915,69.53427640024412,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-05-07,South,Widget_B,SUP-03,69.77378076947319,5.907374148241677,68.7464190413227,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-03,West,Widget_B,SUP-03,59.31783525450324,5.087806115219593,70.91212200269314,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-29,South,Widget_B,SUP-03,88.59036269513282,5.066987298225509,54.98228597875095,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-26,South,Widget_E,SUP-03,37.5502161783113,5.948857153410265,59.70397975346229,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-25,East,Widget_E,SUP-04,32.05272156584478,6.744396408206653,68.15987860225304,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-25,West,Widget_A,SUP-05,118.53690335150579,6.601819750153407,84.55563687550946,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-25,West,Widget_B,SUP-01,74.18812303815493,5.070380548107615,58.82804826137589,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-22,East,Widget_D,SUP-02,66.90416180192884,5.850226586372479,61.032655656232095,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-13,North,Widget_C,SUP-06,50.28640606782121,3.154623426575723,46.705876117183095,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-29,East,Widget_E,SUP-05,33.8475128658956,4.078407661285941,52.08218090268025,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-25,South,Widget_C,SUP-02,79.00024983426546,2.9763411312566914,50.680500102088345,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-17,South,Widget_D,SUP-05,77.53511801317309,5.545386540000185,68.86200119092673,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-13,North,Widget_D,SUP-04,100.16782281380723,6.210628669482061,65.94110165003625,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-12,West,Widget_E,SUP-01,74.4926394287177,6.189153506654771,70.75459610583056,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-10,South,Widget_D,SUP-05,85.05803249265986,4.747865826268376,58.65970110291513,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-04,North,Widget_C,SUP-05,45.54865194001062,5.60112377996829,55.80568485966274,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-04,South,Widget_A,SUP-02,74.09346574323254,4.839874790543038,50.75255190610329,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-03,West,Widget_C,SUP-05,75.68502697831325,5.243985555611956,63.70209776723169,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-02,North,Widget_E,SUP-06,43.90184586955095,3.959250933385875,71.03337761169746,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-03-02,West,Widget_A,SUP-03,95.06414030833767,6.050485478684396,61.524878511052194,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-02-26,East,Widget_B,SUP-04,112.27711016598934,5.073078473227113,66.96103632065089,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-02-22,West,Widget_A,SUP-06,105.54699534643409,4.455839357559594,59.51372353530083,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-02-18,South,Widget_B,SUP-06,87.61043633144304,5.133741072790354,73.13786231155837,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-02-11,South,Widget_B,SUP-03,72.66970633669736,5.440555366628729,72.27901202584133,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-02-10,North,Widget_E,SUP-02,38.29232507179991,5.870636225948451,56.33715419244172,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-02-09,North,Widget_D,SUP-05,69.43437174189476,3.2747625970133294,67.34817033520694,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-02-07,East,Widget_E,SUP-06,35.273474965387535,7.1000776021233785,70.20496208878095,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-01-31,West,Widget_A,SUP-03,107.3045210664495,3.2309433387743045,60.50197514065447,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-01-24,North,Widget_A,SUP-06,122.35073229485839,3.776734874599117,70.71796343597832,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-01-22,East,Widget_B,SUP-03,98.90575222594252,3.176095675804739,51.555714791256676,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-01-16,South,Widget_A,SUP-02,104.20483113715252,6.005193599276436,65.85523756912585,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-01-15,North,Widget_D,SUP-03,61.98306428371634,3.773417737337428,62.87678794987134,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-01-09,East,Widget_E,SUP-05,47.42179238763142,7.019117899834007,69.59200176785374,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-01-09,West,Widget_E,SUP-01,41.34070639017662,4.5046306189789345,62.544106575780674,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-01-08,East,Widget_C,SUP-05,65.74741886222864,3.1348857851626475,49.94377659252535,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-12-31,West,Widget_A,SUP-06,116.05583149978474,8.327934852863619,68.12495490235044,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-12-29,North,Widget_B,SUP-04,78.6664138176491,5.553330330973068,60.219759543210884,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-12-23,East,Widget_D,SUP-01,70.48020162138326,4.229121259336326,52.53578384853238,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-12-18,North,Widget_A,SUP-01,183.0200805036014,2.8618780399411627,45.94557507293632,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-12-15,West,Widget_D,SUP-02,52.65005159870583,4.765404100757736,56.815754810929036,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-12-08,West,Widget_D,SUP-01,45.40112501262227,2.8788914556913516,56.78295016148238,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-12-04,South,Widget_A,SUP-04,123.96634580763967,5.5255376593700305,63.61434110589211,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-12-04,West,Widget_E,SUP-03,48.849420146651944,3.5972885116422573,56.086623045748226,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-11-29,West,Widget_A,SUP-04,103.21798685950237,3.1790494059266314,64.92645694530103,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-11-27,South,Widget_C,SUP-05,55.4630179592694,5.43095210306133,51.91648909663428,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-11-24,North,Widget_B,SUP-05,54.62969645748329,5.4720851236309,57.29924306642962,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-11-23,South,Widget_C,SUP-03,55.28619624757196,4.755397860731623,58.5380557874064,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-11-20,West,Widget_A,SUP-03,69.09801516811207,5.626401358258243,67.27452034331927,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-11-14,North,Widget_A,SUP-05,89.00904341819684,4.736060450912728,68.07741965789745,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-11-06,West,Widget_E,SUP-02,38.24775895216879,2.8308525768365684,53.37634682352402,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-11-01,South,Widget_D,SUP-04,58.35531762634979,6.667044929253819,77.5529035731278,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-10-31,North,Widget_A,SUP-06,93.10211241330003,2.7571217343844685,57.98456473061028,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-10-31,South,Widget_D,SUP-06,108.10187387294528,4.354548672168265,61.92891366847243,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-10-23,South,Widget_D,SUP-04,77.96194375476048,4.234243761153113,70.9076512802065,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-10-22,South,Widget_B,SUP-03,60.25187203180311,3.226429428697706,53.75116294902102,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-10-15,West,Widget_E,SUP-03,54.88141370941177,3.3018146656766105,56.896070492063785,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-09-21,South,Widget_C,SUP-02,23.38529042351937,2.853898153904798,58.27918748507926,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-09-20,East,Widget_A,SUP-01,98.88607276434894,6.82736055768234,64.8455729416363,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-09-15,West,Widget_B,SUP-05,38.18406584765911,4.557002805647585,56.037656433670776,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-09-12,East,Widget_B,SUP-04,71.49601917514288,5.640619162975575,70.7177817292108,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-09-12,South,Widget_A,SUP-05,77.0394157321034,6.199354081658765,60.11016688504775,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-09-09,West,Widget_D,SUP-03,86.43722990003398,3.838971196682596,64.04237532935124,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-09-06,East,Widget_C,SUP-03,40.65874040803124,6.856081711114261,73.74604215220256,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-09-06,South,Widget_E,SUP-04,36.97194088543493,3.1705431439306824,67.7751824703189,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-09-04,South,Widget_D,SUP-04,82.01448091479683,3.640451573772129,55.3034820734876,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-09-02,West,Widget_C,SUP-01,39.352202194487894,3.1096817726418378,49.50959671135422,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-08-27,North,Widget_B,SUP-04,71.67086670323685,4.175429987472089,58.33939800616391,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-07-20,East,Widget_B,SUP-01,48.19680805726764,4.525703719169494,68.60525372550319,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-07-17,West,Widget_E,SUP-05,24.67134132389701,5.35367629149322,62.577418240025345,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-07-03,South,Widget_D,SUP-04,86.45925701721345,5.763182286343192,62.100582499622384,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-07-03,West,Widget_C,SUP-01,47.77271598264057,4.92173348728302,52.92525269088783,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-07-01,West,Widget_E,SUP-01,42.561452086557566,6.377632103191547,74.47516998973084,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-06-22,North,Widget_B,SUP-03,47.590772806985576,6.254946824876594,79.3697590831822,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-06-19,South,Widget_B,SUP-05,60.79008175853788,3.0912746308563195,55.94254455138896,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-06-16,West,Widget_D,SUP-02,49.015356007229194,4.4940069710056205,60.280919337015284,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-06-09,North,Widget_B,SUP-02,41.405378797893995,4.0357442361990294,50.715308877306555,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-06-03,West,Widget_E,SUP-02,35.211625247349026,3.0100083943952733,48.71754201091852,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-05-30,North,Widget_A,SUP-01,55.60143112855695,3.0108422638671994,50.850413324300646,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-05-28,East,Widget_E,SUP-04,44.197918266457116,5.20197814917122,54.6871344340741,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-05-21,West,Widget_B,SUP-02,41.165938540829565,5.892164921320641,55.05202668581304,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-05-18,East,Widget_E,SUP-06,25.516642352180657,3.3739799575168057,60.05592505414191,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-05-16,East,Widget_E,SUP-05,41.53339247563732,4.079051767687949,58.52984787716116,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-04-23,East,Widget_A,SUP-06,82.27477816369873,3.6247139952029555,69.3350412728034,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-04-19,North,Widget_E,SUP-05,53.55239572986906,4.744770991379929,58.49808215187639,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-04-17,East,Widget_A,SUP-01,83.79604416951408,6.379344653750473,77.55540127812782,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-04-12,East,Widget_C,SUP-05,71.51664516749075,3.9944602463916996,59.53272209581384,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-04-10,North,Widget_B,SUP-06,39.525418991256835,4.543253164102443,57.88693089788173,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-04-02,South,Widget_C,SUP-05,41.361942844057346,3.0749985251842515,58.77696085995764,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-03-24,South,Widget_E,SUP-03,36.89193575299713,3.208153462268373,55.875563798449896,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-03-22,East,Widget_A,SUP-03,54.671605979488156,5.279445574621829,64.3538124953465,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-03-16,East,Widget_A,SUP-06,38.61520096023355,4.347240703223962,66.6367520702092,4,high,"sudden_sales_drop, delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-03-03,North,Widget_D,SUP-02,60.295572919595664,3.5288560596153395,66.19458404688253,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-03-02,East,Widget_D,SUP-05,86.61324444643333,6.300940892382529,70.04046188710798,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-02-28,North,Widget_C,SUP-01,72.0794177602291,4.711706322803576,66.55454719594397,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-02-22,East,Widget_A,SUP-02,88.81514511672621,5.041278448667574,54.854124814418334,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-02-10,East,Widget_D,SUP-05,51.72232874674759,4.871215815504348,58.699129070994076,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-02-08,South,Widget_E,SUP-02,25.300572592194996,6.4614297472962905,59.34115520915396,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-02-07,South,Widget_B,SUP-05,46.78479465193497,4.210247689843951,62.38654719956433,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-01-28,South,Widget_E,SUP-03,25.994473316734595,5.255931929990749,52.29288839316278,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-01-25,South,Widget_E,SUP-01,33.50987394478089,0.30512404323003905,57.28444694514519,4,high,"sudden_sales_drop, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-01-16,East,Widget_C,SUP-04,49.98748453336803,5.350166035071785,70.19814947635538,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-01-16,North,Widget_A,SUP-05,73.09635484518981,4.867174223742615,72.16667288840043,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-01-10,East,Widget_E,SUP-06,62.63345432559281,7.154717008918891,57.46406692827668,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-01-06,South,Widget_D,SUP-05,86.92106148688038,3.5376049675781407,63.52934613578144,4,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-12-29,South,Widget_B,SUP-02,81.07140694865558,2.758290974976739,63.198803371402164,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-12-21,East,Widget_A,SUP-02,68.68948788769926,5.1260631403272985,65.46968903976858,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-12-15,West,Widget_E,SUP-04,47.20108790232598,4.3704792827276435,67.56463192418694,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-12-12,North,Widget_B,SUP-05,65.01280784752682,2.1387483001228524,44.46299469336904,3,high,"sudden_sales_drop, isolation_forest_outlier, dbscan_noise_point"
+2024-12-12,North,Widget_C,SUP-03,56.39525159545004,2.6129084469332744,62.56773797605501,3,high,"sudden_sales_drop, transport_cost_spike, isolation_forest_outlier"
+2024-12-07,East,Widget_D,SUP-04,65.67569167367957,5.521901683405849,61.385686772531656,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-12-02,East,Widget_D,SUP-05,94.7605023239912,0.2975997245759585,59.55658855079053,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-12-01,North,Widget_D,SUP-01,101.96683132357869,2.537702348378489,60.99766738219821,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-11-20,North,Widget_C,SUP-04,54.85946387613614,3.548729165059368,59.19761648257227,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-11-04,West,Widget_C,SUP-03,149.8963842615995,3.475291257637115,43.716815864831034,3,high,"delivery_delay_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-11-03,South,Widget_C,SUP-03,45.46090532894026,5.884307084630786,61.33904713805274,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-10-30,East,Widget_E,SUP-02,56.472663908218344,4.984652341080141,68.0347896679543,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-10-30,South,Widget_E,SUP-04,50.66188222409546,3.866491284110583,55.700150878223305,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-10-28,South,Widget_B,SUP-01,64.85572359881132,4.696017182884855,58.659897616577155,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-10-16,West,Widget_C,SUP-01,68.26415668248954,2.8040227494755,63.52146258620937,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-10-16,West,Widget_D,SUP-04,97.17502438315977,2.525667516657984,61.45490052680546,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-10-10,North,Widget_A,SUP-06,66.56485492276158,3.033988024045004,62.727567939478114,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-10-10,North,Widget_B,SUP-04,74.05998771081725,0.9969991411096197,54.70598721000917,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-10-06,West,Widget_D,SUP-05,80.49164384027797,5.009538943341153,65.80128376475572,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-10-05,North,Widget_C,SUP-06,56.05812941136742,6.29598254984299,61.526827614903134,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-09-16,West,Widget_D,SUP-01,70.49825291879327,3.8042307013290815,59.81012606724039,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-09-06,East,Widget_C,SUP-05,30.955551652494815,1.769363026301883,51.046106979918676,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-09-05,South,Widget_C,SUP-02,41.739422679499114,4.00914643006057,53.167779106307314,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-08-21,South,Widget_B,SUP-04,70.95930185175774,1.8755269601678712,62.531259169613996,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-08-19,East,Widget_C,SUP-01,41.14632440322079,3.974726016533943,63.473064870067546,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-08-17,North,Widget_E,SUP-05,45.123785668115204,1.4614651914482168,51.831253937783984,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-08-15,North,Widget_E,SUP-04,34.47410862891447,3.567531256755723,61.77528761600935,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-07-29,South,Widget_B,SUP-03,57.14154808978372,1.717779746187005,57.96452019389862,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-07-11,North,Widget_B,SUP-04,61.50852078804089,1.9352614710735723,51.40481498751619,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-07-06,North,Widget_E,SUP-06,27.130676800613845,5.062968883122986,67.58469148394238,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-06-28,East,Widget_E,SUP-03,33.22060713210925,2.2593522426344927,58.17710864506506,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-27,North,Widget_D,SUP-06,83.46356733684006,3.2815405088233165,56.39081396047789,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-06-26,East,Widget_D,SUP-03,62.774587967596176,3.315321765107324,50.444797679409305,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-06-20,West,Widget_C,SUP-04,49.18051419912676,1.8460178927289226,51.18664329664366,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-20,West,Widget_E,SUP-06,37.27176558656765,3.4382406895948314,59.98642134247666,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-06-13,East,Widget_E,SUP-02,28.724229011525107,2.535213332397658,57.68102329324708,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-13,West,Widget_E,SUP-06,36.61627641714833,3.49839023542896,55.175947030598834,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-06-12,South,Widget_D,SUP-04,51.09293659982949,3.177785713597117,61.35015885685499,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-06-10,West,Widget_C,SUP-02,52.47952837478494,1.8353980290250957,47.736806875116415,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-06-06,North,Widget_E,SUP-05,45.93587334399606,4.9047840744410545,61.131724782651766,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-06-06,South,Widget_E,SUP-02,42.60361209743468,5.180970405758016,64.86370052100462,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-05-26,South,Widget_D,SUP-05,44.936451626852055,3.07107895408091,66.2327407482648,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-05-25,North,Widget_B,SUP-06,48.82202533981113,3.4469077691522876,56.9167079818116,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-05-23,South,Widget_E,SUP-02,37.17136198192344,1.0279187164732837,51.605794089648384,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-22,East,Widget_E,SUP-02,46.04413817372258,3.565411722578564,57.233195083534014,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-05-21,West,Widget_E,SUP-01,38.37611193906617,2.109779895387374,51.25260815846499,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-20,North,Widget_E,SUP-05,42.0091282136971,2.6452884104241057,49.71883036913098,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-18,North,Widget_D,SUP-01,85.26688756302721,2.1389497513065363,63.457057220715086,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-05-01,North,Widget_E,SUP-04,52.528653834802746,3.297613991284855,63.10644481430352,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-04-26,West,Widget_E,SUP-03,34.69692302436549,1.0388008439691765,55.55028330404855,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-24,West,Widget_A,SUP-02,117.02375127411676,1.7471198812823197,55.251300066538185,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-23,South,Widget_E,SUP-04,45.80827142919974,4.4790461519906035,59.58494189845825,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-04-19,South,Widget_E,SUP-06,24.40137032871476,3.943808552855379,53.20697089430951,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-04-17,North,Widget_C,SUP-02,54.038499817536454,4.437610407675784,66.0846837706093,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-04-13,North,Widget_A,SUP-02,70.45612193337332,2.7469311063934203,56.515718180532744,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-04-12,North,Widget_D,SUP-03,77.68345106439344,2.8098440738592787,60.82487125995291,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-04-10,West,Widget_B,SUP-01,60.33258804051479,5.770836365714785,69.69012385811735,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-04-07,South,Widget_A,SUP-05,73.63007260155102,2.733535763516685,65.09025645477503,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-04-07,West,Widget_A,SUP-04,249.93371945544442,2.9978381586728684,45.124260017341555,3,high,"delivery_delay_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-06,West,Widget_A,SUP-05,121.83813585578756,1.9812252637760628,51.26460327548564,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-04-01,West,Widget_B,SUP-02,61.74085794731742,3.449618697988549,60.15771545889328,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-03-20,West,Widget_B,SUP-01,73.69849555165179,3.19682970503408,62.60341540714919,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-03-07,West,Widget_D,SUP-04,74.9223742501421,4.253643030168821,54.95113929509642,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-02-08,East,Widget_C,SUP-06,82.84805100701347,3.8121360920222873,54.17676833881162,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-01-27,East,Widget_D,SUP-02,87.32177119867687,5.1326408154011816,63.899248433399336,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-01-26,East,Widget_C,SUP-06,50.89232517077295,4.400333587536588,62.81863740650599,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-01-08,South,Widget_B,SUP-01,70.98592740147394,3.334158140930111,63.798728473393844,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2024-01-06,West,Widget_E,SUP-02,77.19431894341865,2.2360929159670255,56.27133323965107,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-01-05,West,Widget_C,SUP-04,50.355505659723335,4.3805940806660235,57.90541817782325,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-12-29,West,Widget_A,SUP-05,127.96413981901878,2.529366439727246,63.73309295581252,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-12-24,East,Widget_B,SUP-03,69.49688192104422,3.432835993080594,60.739282700165326,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-12-19,North,Widget_A,SUP-02,80.32803359709202,4.93092818804433,66.55154058154766,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-12-14,South,Widget_D,SUP-04,60.61799965528752,2.0716563938207413,48.703637138386405,3,high,"sudden_sales_drop, transport_cost_spike, dbscan_noise_point"
+2023-12-08,North,Widget_C,SUP-01,50.727920854509726,4.075147601809666,66.94885343106921,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-12-07,North,Widget_D,SUP-02,61.5270901228536,4.862858477925302,69.23107802687085,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-12-06,South,Widget_C,SUP-03,47.93118437534536,2.9493010702836084,65.31887238828406,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-12-05,South,Widget_D,SUP-01,111.54722894088982,1.9781518085711463,59.55622709352964,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-12-04,South,Widget_B,SUP-04,57.83826689211054,5.318072844893626,62.45574979024569,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-11-30,North,Widget_E,SUP-01,31.333706063582024,2.875234391382484,52.356013199163904,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-11-13,South,Widget_C,SUP-05,59.501218542403905,1.7006679803108695,54.7271314591836,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-11-04,North,Widget_E,SUP-03,41.79280335245134,2.7964109059508617,59.03583012180863,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-11-03,South,Widget_D,SUP-06,48.48161098971848,3.8912409368028746,54.71472627420115,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-11-02,East,Widget_E,SUP-06,30.967179566208596,5.255413424746481,62.57322481871303,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-10-29,South,Widget_C,SUP-04,36.87402650184861,4.42229937118966,60.56914031538738,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-10-26,South,Widget_B,SUP-04,62.52055539342182,3.723263806414878,60.71079871359798,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-10-26,West,Widget_E,SUP-05,47.71147367604254,5.680035610695099,61.61427216445408,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-10-16,West,Widget_A,SUP-05,67.81661185039009,5.929096120139828,67.56680009367443,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-09-22,East,Widget_E,SUP-03,36.586553058094324,3.6500289405996726,51.1964734883166,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-09-14,North,Widget_E,SUP-06,28.964106007066423,3.4134099526121147,57.73062493663406,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-09-03,West,Widget_B,SUP-02,58.61107163180859,6.064412727089442,64.95028206882756,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-08-24,East,Widget_D,SUP-04,54.2383116442978,2.8618366444059946,58.27038411830291,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-08-22,East,Widget_B,SUP-04,47.809705240538364,2.693950851381437,52.87758105031401,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-08-19,West,Widget_C,SUP-04,45.607891081868765,3.0778730433965715,58.13447394839912,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-08-16,East,Widget_B,SUP-06,56.39195757403961,2.7410953697709686,54.51616045177675,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-08-12,East,Widget_D,SUP-04,44.27977440123414,1.900688102050714,47.266791749680905,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-08-06,North,Widget_C,SUP-04,42.11412798622686,3.2723043599505797,59.07356025499294,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-07-11,South,Widget_D,SUP-04,52.79865488516806,5.618713896760185,62.219096134813796,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-06-29,South,Widget_E,SUP-05,37.594401408313864,3.487082679685588,54.84530884068528,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-06-27,North,Widget_D,SUP-06,83.87625195141601,5.110654348577248,64.639373036591,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-06-17,South,Widget_A,SUP-06,46.585508603801884,5.517342408697205,65.34486031193495,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-06-16,West,Widget_B,SUP-05,34.46681571730577,1.3000776898896653,48.51652365108353,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-06-11,North,Widget_A,SUP-04,60.72599372850975,5.910344836369344,64.93498471488304,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-05-31,East,Widget_E,SUP-04,42.48626741185823,3.441185300820794,58.445220130234716,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-05-29,East,Widget_E,SUP-04,26.928131766892488,3.571164827408288,66.35861945062564,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-05-27,West,Widget_D,SUP-04,71.19153508105157,5.858874251922085,67.41116963897295,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-05-26,East,Widget_B,SUP-04,65.37313773182737,3.918674967870505,52.82135273899499,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-05-24,East,Widget_B,SUP-03,46.93108616748157,2.3277268460902807,57.39854951455169,3,high,"sudden_sales_drop, transport_cost_spike, isolation_forest_outlier"
+2023-05-23,South,Widget_E,SUP-04,38.491272465882155,1.5983794279630255,57.027225592823335,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-05-10,North,Widget_C,SUP-01,54.32215150055302,3.408240887077982,54.55117119050276,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-04-24,South,Widget_B,SUP-06,49.46229184860796,3.396870426818433,59.311268748748354,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-04-23,East,Widget_C,SUP-01,43.653816981758126,4.606192662880544,59.02049280215123,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-04-21,South,Widget_D,SUP-02,61.5984421574347,5.49012777990192,69.88726342469101,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-04-20,East,Widget_C,SUP-01,42.08413241518752,3.836303698105723,59.14568980560444,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-04-19,East,Widget_E,SUP-06,43.894634868726726,4.69887676448365,56.985081696200545,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-04-17,South,Widget_C,SUP-01,38.90367390007148,4.553521314276502,61.014062890614014,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-04-16,North,Widget_B,SUP-02,56.44159361112184,3.391247070467845,53.63413643113719,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-04-15,South,Widget_B,SUP-05,33.07615240573458,2.298228416290648,60.13906945253666,3,high,"sudden_sales_drop, transport_cost_spike, isolation_forest_outlier"
+2023-04-12,North,Widget_B,SUP-02,77.10353039987699,3.423814590342927,61.18622271684124,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-04-08,East,Widget_B,SUP-03,49.173452261959234,2.1536104308089117,51.34579900293219,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-04-04,West,Widget_B,SUP-02,52.872661466232884,3.13945997694794,58.2179653023087,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-03-31,South,Widget_A,SUP-01,60.924333826770464,4.739710811925554,62.204746360663776,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-03-30,North,Widget_C,SUP-05,38.04047364436861,3.0188158975195294,62.8725716275997,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-03-26,North,Widget_E,SUP-02,60.14385164875986,2.1609393809123425,55.42424072211297,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-03-18,West,Widget_C,SUP-01,54.599185503384234,2.994128517150282,62.42611597232363,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-03-13,North,Widget_B,SUP-05,60.20205664905281,3.193477906006534,61.643940864838264,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-03-05,West,Widget_E,SUP-01,48.67307629585109,5.504226860798838,66.45122091101639,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-03-04,North,Widget_D,SUP-01,72.8859390825091,2.4647330033468373,48.39546236550452,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-03-04,South,Widget_B,SUP-06,66.74114552694337,1.6699204163121149,63.42227732589902,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-02-27,East,Widget_C,SUP-04,42.59467818303201,1.715035703314085,59.25811755444555,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-02-21,East,Widget_D,SUP-02,58.94935792370682,5.554846371624192,68.57208994134217,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-02-16,West,Widget_E,SUP-01,30.277271567945142,5.675663263637224,64.69738577021059,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-02-12,East,Widget_C,SUP-04,59.1182688652931,3.3676238853797837,55.261758076610654,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-02-05,West,Widget_E,SUP-06,39.938619822704155,4.316925742777291,53.48729103102934,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-02-04,East,Widget_E,SUP-01,36.47352566595284,4.175845050503836,61.724471445226946,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-01-17,South,Widget_E,SUP-04,57.61256255049538,3.375738938389836,63.36406699005088,3,high,"delivery_delay_spike, transport_cost_spike, isolation_forest_outlier"
+2023-01-10,West,Widget_D,SUP-03,106.3217067152232,2.3273301914640925,60.87377969233114,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2023-01-02,North,Widget_A,SUP-05,122.56828849008829,2.5449405496114186,52.56007476080409,3,high,"transport_cost_spike, isolation_forest_outlier, dbscan_noise_point"
+2024-12-27,West,Widget_A,SUP-04,257.8604416822952,0.019413886005422463,36.54843046088646,2,medium,"isolation_forest_outlier, dbscan_noise_point"
+2024-12-22,West,Widget_A,SUP-03,223.64706996944125,1.4183497815799377,42.651807627500034,2,medium,"isolation_forest_outlier, dbscan_noise_point"
+2024-12-01,West,Widget_A,SUP-04,273.8103469958325,-0.30441085232988946,35.29764375764364,2,medium,"isolation_forest_outlier, dbscan_noise_point"
+2024-11-26,West,Widget_A,SUP-06,223.91454872173153,2.3782281661877898,42.20143866426942,2,medium,"isolation_forest_outlier, dbscan_noise_point"
+2024-11-01,East,Widget_C,SUP-04,46.975983730616804,1.8680777544983684,56.508578227415384,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2024-10-16,West,Widget_E,SUP-01,61.5847791844566,0.8904765757047328,51.89062565979421,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-10-01,South,Widget_B,SUP-01,56.87298572439214,1.8667746938675873,46.39345145717733,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-08-23,East,Widget_E,SUP-02,44.37315921748628,2.4343933018279142,63.50307726207321,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2024-07-31,North,Widget_A,SUP-04,154.76096166772098,2.8873448225248453,44.54747901848903,2,medium,"delivery_delay_spike, isolation_forest_outlier"
+2024-07-16,South,Widget_C,SUP-03,60.38236018901538,2.264537747403706,61.15721532582316,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2024-06-02,East,Widget_D,SUP-01,51.07495221932189,2.5645102933726376,59.38384917356201,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2024-05-21,East,Widget_C,SUP-03,80.32110818994941,1.1783609398034185,53.59535152518335,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-05-13,East,Widget_D,SUP-01,75.13877862499547,2.4282130512656157,48.50695955889922,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-04-15,West,Widget_D,SUP-01,82.41934472648478,2.3955915651405792,51.63466529034847,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-04-12,South,Widget_C,SUP-01,66.06954224946956,2.3543811195793496,63.68441232044588,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2024-03-14,East,Widget_A,SUP-03,72.83953284928333,1.3194018086872936,47.20616475862452,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-03-11,West,Widget_C,SUP-06,81.0355135033487,0.8035397606191308,55.91659299823111,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-02-28,East,Widget_A,SUP-05,77.0302644623474,1.0547785766911142,55.91376687852345,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-02-25,East,Widget_E,SUP-04,53.110039155184715,-0.18560487538810566,49.17818319484447,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-02-20,North,Widget_D,SUP-05,121.47480734700022,1.0416467929687476,47.30400567471949,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-02-19,East,Widget_E,SUP-04,60.3221433713548,0.9972108500187213,52.65626032376806,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-02-19,West,Widget_E,SUP-02,67.2414689777098,2.447985966071617,59.36952908707042,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2024-02-17,West,Widget_B,SUP-06,66.9895065021057,1.9883250013480616,53.6309856785868,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-01-31,North,Widget_B,SUP-02,87.37725836142867,2.363748840456511,47.74806630879186,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-01-19,East,Widget_B,SUP-01,74.52943258550138,2.402718941637861,64.23940188312322,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2024-01-17,North,Widget_C,SUP-03,61.323822063576586,0.9036241688994,53.20513731084479,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-01-17,West,Widget_A,SUP-01,108.71460711009726,1.0815622421707403,59.10447827751841,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-01-07,East,Widget_A,SUP-05,108.81611183112076,1.5561442435150714,61.097335110723364,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-01-06,North,Widget_A,SUP-03,92.82171243198123,2.038093482576666,56.86474963562364,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-12-10,West,Widget_B,SUP-02,91.5976852385692,1.786092812860674,55.855357840467015,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-12-02,North,Widget_C,SUP-01,59.393545889448966,1.4878597483074836,56.49781519265299,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-11-26,West,Widget_D,SUP-01,69.49352068543976,1.2850148989527788,57.32487947096862,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-11-13,West,Widget_A,SUP-03,206.55694409332278,2.301349051949344,40.16037505402872,2,medium,"isolation_forest_outlier, dbscan_noise_point"
+2023-11-07,North,Widget_A,SUP-04,80.02329497765679,1.6898056667006862,52.72318319148046,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-11-04,South,Widget_C,SUP-02,45.5890532142788,2.2400040886731762,66.29472686131948,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2023-10-12,West,Widget_A,SUP-05,87.90620711905053,0.8364967312225118,61.39610576790626,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-10-04,South,Widget_A,SUP-02,69.59917473443882,2.2845732754412125,61.047944438309585,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2023-06-09,East,Widget_D,SUP-02,40.16325366620823,0.9198708743326014,49.63411159566681,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-05-30,South,Widget_A,SUP-02,81.21454994424752,1.3728052162015991,52.078632555878066,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-05-24,West,Widget_D,SUP-03,76.38175667543156,1.4341258043987644,50.177124198340564,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-03-09,West,Widget_E,SUP-02,45.16656718963472,1.3306049730245673,49.750729881998744,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-03-02,East,Widget_B,SUP-01,77.7098023930946,2.3533646802209063,49.41975608843596,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-02-04,West,Widget_E,SUP-06,51.90477508704641,2.54745402292921,54.29599422175312,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2023-02-03,South,Widget_C,SUP-03,60.133266922138695,1.991989143777447,57.776203291026064,2,medium,"transport_cost_spike, isolation_forest_outlier"
+2023-01-16,South,Widget_B,SUP-06,54.12732779141003,1.3805756082702554,49.81119812013094,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-01-13,West,Widget_A,SUP-02,57.19991227792975,1.5033255321771215,52.42947965606798,2,medium,"transport_cost_spike, dbscan_noise_point"
+2023-01-11,West,Widget_D,SUP-06,85.84135814320165,1.2259513965006437,52.088805762994085,2,medium,"transport_cost_spike, dbscan_noise_point"
+2024-12-30,East,Widget_D,SUP-05,192.1404678582663,2.176901098611721,39.88278870462781,1,medium,isolation_forest_outlier
+2024-12-30,North,Widget_A,SUP-04,226.8759875751772,-0.6376603381370266,36.37805635735742,1,medium,isolation_forest_outlier
+2024-12-30,West,Widget_A,SUP-04,234.04931893320116,-0.5152390822516878,34.38721897784262,1,medium,isolation_forest_outlier
+2024-12-30,West,Widget_D,SUP-01,198.51958172008057,-0.7200489390234558,32.22739098150122,1,medium,isolation_forest_outlier
+2024-12-29,West,Widget_A,SUP-06,231.87934413233575,1.0460757263866245,38.938559289557865,1,medium,isolation_forest_outlier
+2024-12-28,West,Widget_A,SUP-02,219.39505562444134,-0.7812105359464165,37.56036090269788,1,medium,isolation_forest_outlier
+2024-12-25,East,Widget_A,SUP-01,204.2038102732143,-0.8958689029767735,35.14017971193452,1,medium,isolation_forest_outlier
+2024-12-24,North,Widget_A,SUP-01,235.98669940394007,0.9153196257763719,36.58016689679386,1,medium,isolation_forest_outlier
+2024-12-23,North,Widget_A,SUP-06,232.8927634590207,0.41800496174587876,39.63562293354514,1,medium,isolation_forest_outlier
+2024-12-23,West,Widget_A,SUP-01,252.51603457924034,0.8083901366673686,39.25860145109501,1,medium,isolation_forest_outlier
+2024-12-23,West,Widget_D,SUP-05,195.02585247916002,1.3121826083826582,37.59171644526115,1,medium,isolation_forest_outlier
+2024-12-22,North,Widget_A,SUP-06,225.30457687522758,-0.4669607819530598,34.66135977875805,1,medium,isolation_forest_outlier
+2024-12-22,South,Widget_A,SUP-06,209.66964376864541,0.6173777955020969,34.601469142203015,1,medium,isolation_forest_outlier
+2024-12-19,West,Widget_A,SUP-05,208.78231037370722,-0.5586438751900966,34.885726667876106,1,medium,isolation_forest_outlier
+2024-12-17,North,Widget_A,SUP-04,231.67546580281652,1.6308305019709068,41.358102297982114,1,medium,isolation_forest_outlier
+2024-12-17,South,Widget_A,SUP-02,231.54156917105954,2.0760574542181356,38.71110322559869,1,medium,isolation_forest_outlier
+2024-12-16,North,Widget_A,SUP-05,216.71640133042405,0.6403172864107924,39.63884040869062,1,medium,isolation_forest_outlier
+2024-12-16,West,Widget_A,SUP-05,241.27470157545915,-0.8165931871888905,39.2985212541108,1,medium,isolation_forest_outlier
+2024-12-15,West,Widget_A,SUP-05,222.33701987484318,-0.04683762044852163,36.610741861680594,1,medium,isolation_forest_outlier
+2024-12-13,North,Widget_D,SUP-03,187.34598956028702,2.150129708152371,41.99171571217383,1,medium,isolation_forest_outlier
+2024-12-10,North,Widget_A,SUP-03,225.1379487613229,-1.0,36.93017076796196,1,medium,isolation_forest_outlier
+2024-12-10,West,Widget_A,SUP-04,228.65229217660777,-0.03914163819909081,36.42293621554555,1,medium,isolation_forest_outlier
+2024-12-09,South,Widget_A,SUP-02,204.49586594690552,-1.0,36.54714850452018,1,medium,isolation_forest_outlier
+2024-12-09,West,Widget_A,SUP-02,225.31167766608192,-1.0,38.47757811615526,1,medium,isolation_forest_outlier
+2024-12-08,South,Widget_D,SUP-05,179.66203111246446,1.776467671454685,41.04046553481894,1,medium,isolation_forest_outlier
+2024-12-08,West,Widget_A,SUP-01,240.42168211489096,1.389038548171591,39.108606396116784,1,medium,isolation_forest_outlier
+2024-12-07,North,Widget_A,SUP-01,193.5869297162449,1.8466314803450619,42.737343023091526,1,medium,isolation_forest_outlier
+2024-12-07,South,Widget_D,SUP-01,202.10649711179798,0.9676158946294983,39.0023867172009,1,medium,isolation_forest_outlier
+2024-12-05,North,Widget_A,SUP-01,196.01907096358997,1.8499291727567566,39.8591936147411,1,medium,isolation_forest_outlier
+2024-12-04,North,Widget_A,SUP-02,202.6521777314511,-1.0,35.54720307229864,1,medium,isolation_forest_outlier
+2024-12-03,North,Widget_B,SUP-03,207.19811662172825,-0.7264641284698843,37.422193089512874,1,medium,isolation_forest_outlier
+2024-12-03,West,Widget_A,SUP-02,213.3466120498401,0.24195507302996588,38.29115810593319,1,medium,isolation_forest_outlier
+2024-12-02,North,Widget_A,SUP-04,216.80788120131666,0.2610450824973798,33.65898972104639,1,medium,isolation_forest_outlier
+2024-12-01,North,Widget_A,SUP-04,243.09166776249356,0.7159138873833633,40.88790826688168,1,medium,isolation_forest_outlier
+2024-12-01,South,Widget_A,SUP-05,214.24258326204608,-1.0,36.5245949248998,1,medium,isolation_forest_outlier
+2024-11-29,West,Widget_A,SUP-02,193.56554921245652,1.0934853373341133,38.01370651857444,1,medium,isolation_forest_outlier
+2024-11-28,North,Widget_A,SUP-04,203.4281656194949,-0.8669988634225899,33.44404719605245,1,medium,isolation_forest_outlier
+2024-11-26,North,Widget_A,SUP-02,220.04312454185816,0.6473477132282894,39.17698515785715,1,medium,isolation_forest_outlier
+2024-11-26,South,Widget_A,SUP-06,202.34826861597313,-0.8178400431895351,34.785101296850975,1,medium,isolation_forest_outlier
+2024-11-24,West,Widget_A,SUP-01,209.6764001605873,0.7722248330665719,34.406763676421924,1,medium,isolation_forest_outlier
+2024-11-19,North,Widget_A,SUP-03,204.97412375511541,-0.4686586122584553,34.29892410451718,1,medium,isolation_forest_outlier
+2024-11-19,North,Widget_D,SUP-06,207.9005757630077,-1.0,34.75903806638664,1,medium,isolation_forest_outlier
+2024-11-19,West,Widget_A,SUP-03,220.04994959957497,0.7068836657778155,39.939844261814365,1,medium,isolation_forest_outlier
+2024-11-16,West,Widget_A,SUP-03,207.56491587709974,-1.0,36.06207683789707,1,medium,isolation_forest_outlier
+2024-11-12,North,Widget_A,SUP-01,198.82391494340558,1.7904236027234504,35.99568301131097,1,medium,isolation_forest_outlier
+2024-11-11,South,Widget_D,SUP-03,215.46638272444287,-0.9156176804651938,38.04892659835416,1,medium,isolation_forest_outlier
+2024-11-11,West,Widget_A,SUP-04,215.01357980209414,0.31608058863309824,33.88383205644678,1,medium,isolation_forest_outlier
+2024-11-10,North,Widget_A,SUP-06,196.4907181602562,-0.360898630922146,31.933180581688205,1,medium,isolation_forest_outlier
+2024-10-30,North,Widget_A,SUP-06,181.8111404050182,1.9198444662029917,38.5794906097079,1,medium,isolation_forest_outlier
+2024-10-28,West,Widget_A,SUP-02,204.7685460715047,-1.0,36.12535274595052,1,medium,isolation_forest_outlier
+2024-10-21,North,Widget_A,SUP-02,186.30311023764753,1.457491642265963,41.62278806354521,1,medium,isolation_forest_outlier
+2024-10-14,West,Widget_A,SUP-03,201.1927910943242,0.5432629792318476,38.918883410649464,1,medium,isolation_forest_outlier
+2024-10-12,West,Widget_A,SUP-02,228.1564163998698,0.44314639839037706,39.970894182568856,1,medium,isolation_forest_outlier
+2024-09-20,South,Widget_D,SUP-05,176.79496723675916,2.0723086178682784,43.280344507840404,1,medium,isolation_forest_outlier
+2024-09-07,South,Widget_D,SUP-06,74.91497945268014,1.1060245247397376,44.50514678038812,1,medium,dbscan_noise_point
+2024-08-24,West,Widget_C,SUP-03,100.22677283227394,2.8942432722271128,38.12985226161676,1,medium,delivery_delay_spike
+2024-05-24,East,Widget_E,SUP-04,58.62742190324799,3.2743072494632104,36.7497342457494,1,medium,delivery_delay_spike
+2024-05-20,North,Widget_D,SUP-06,194.8910903591737,1.1314093575099018,41.843433406754784,1,medium,isolation_forest_outlier
+2024-04-30,West,Widget_D,SUP-03,173.2610536926634,1.7130069627377522,41.18351410826257,1,medium,isolation_forest_outlier
+2024-04-29,West,Widget_D,SUP-05,221.5725062722752,-0.8102514580215257,34.72446061071388,1,medium,isolation_forest_outlier
+2024-04-28,West,Widget_C,SUP-05,105.45831205528538,2.7068587404843716,40.30769677069402,1,medium,delivery_delay_spike
+2024-04-22,West,Widget_A,SUP-05,223.60362780033884,-1.0,33.541171074089945,1,medium,isolation_forest_outlier
+2024-04-15,North,Widget_D,SUP-01,218.35885795204925,-1.0,38.41601360638343,1,medium,isolation_forest_outlier
+2024-04-09,North,Widget_D,SUP-03,195.83677958445315,1.616810824408093,39.21700697936882,1,medium,isolation_forest_outlier
+2024-04-08,West,Widget_D,SUP-03,185.7629603082598,-0.8996596970476225,37.14264475403605,1,medium,isolation_forest_outlier
+2024-04-02,North,Widget_A,SUP-04,216.03556141565872,-0.4848407068941609,37.91705498410751,1,medium,isolation_forest_outlier
+2024-04-01,South,Widget_A,SUP-05,167.17631160731324,2.2784518518129135,41.344824454141786,1,medium,isolation_forest_outlier
+2024-04-01,West,Widget_A,SUP-04,203.80232528585663,0.047849819139412574,34.54349316390719,1,medium,isolation_forest_outlier
+2024-03-31,West,Widget_D,SUP-05,182.59825104412695,2.3320504245314346,42.255295424125244,1,medium,isolation_forest_outlier
+2024-03-26,North,Widget_D,SUP-04,200.54837531339925,1.421364284545733,36.82373067381529,1,medium,isolation_forest_outlier
+2024-03-19,North,Widget_D,SUP-06,201.0185967903897,0.370153862930412,36.48050478964907,1,medium,isolation_forest_outlier
+2024-03-19,West,Widget_A,SUP-04,214.34208823737487,0.7964389990850741,36.83656955572405,1,medium,isolation_forest_outlier
+2024-03-18,North,Widget_A,SUP-01,218.7552322000861,0.6939325950838249,39.084524231227924,1,medium,isolation_forest_outlier
+2024-03-18,South,Widget_A,SUP-06,175.73121551706905,1.9315373103058975,38.860090082858,1,medium,isolation_forest_outlier
+2024-03-17,West,Widget_D,SUP-01,201.4653948488696,0.9703517574442689,38.17315569258956,1,medium,isolation_forest_outlier
+2024-03-11,North,Widget_D,SUP-01,212.8140230340956,0.6611273895508534,39.47352845503268,1,medium,isolation_forest_outlier
+2024-03-11,West,Widget_A,SUP-02,202.63248492120493,-0.16942406137531707,38.082096938216544,1,medium,isolation_forest_outlier
+2024-03-04,North,Widget_A,SUP-01,218.71112397497657,-0.42300784711381284,35.2466683393822,1,medium,isolation_forest_outlier
+2024-03-04,West,Widget_A,SUP-04,199.93015663396756,1.313528106295009,37.767445569887606,1,medium,isolation_forest_outlier
+2024-02-28,West,Widget_A,SUP-06,183.57579332787597,2.00705544137764,41.01159524469609,1,medium,isolation_forest_outlier
+2024-02-26,West,Widget_B,SUP-05,136.11574527185994,2.7285707136151793,41.29239665350935,1,medium,delivery_delay_spike
+2024-02-12,West,Widget_A,SUP-04,214.26457163758838,-0.7264000906096145,33.06794454370322,1,medium,isolation_forest_outlier
+2024-02-11,North,Widget_A,SUP-03,226.205256189571,1.1793865507483658,40.46632476636347,1,medium,isolation_forest_outlier
+2024-02-07,North,Widget_D,SUP-06,182.15151490143464,2.4610018233988837,45.026644958097044,1,medium,isolation_forest_outlier
+2024-02-06,East,Widget_A,SUP-06,196.41744770527316,0.5023129335686103,38.07897070157504,1,medium,isolation_forest_outlier
+2024-02-06,West,Widget_A,SUP-06,204.85261285859806,-0.8561979977097162,37.29387771319254,1,medium,isolation_forest_outlier
+2024-02-05,East,Widget_D,SUP-02,200.75505139311514,0.2684102596542537,38.62951894154628,1,medium,isolation_forest_outlier
+2024-02-05,West,Widget_A,SUP-06,215.53719200384606,1.168802505952416,39.034138803712146,1,medium,isolation_forest_outlier
+2024-01-31,North,Widget_A,SUP-06,183.35770131061523,1.4867926536990055,37.43041669448,1,medium,isolation_forest_outlier
+2024-01-31,South,Widget_C,SUP-04,104.03813807623183,2.707525005998601,40.32940808966359,1,medium,delivery_delay_spike
+2024-01-29,West,Widget_A,SUP-05,220.52830150762293,-1.0,34.10079896771179,1,medium,isolation_forest_outlier
+2024-01-27,West,Widget_A,SUP-06,216.70735963687736,0.8325719707465333,35.95045926004615,1,medium,isolation_forest_outlier
+2024-01-24,West,Widget_A,SUP-03,222.9840141341194,-1.0,36.1927049296999,1,medium,isolation_forest_outlier
+2024-01-23,North,Widget_D,SUP-04,227.83510557842163,0.8946259723136532,39.77374432382732,1,medium,isolation_forest_outlier
+2024-01-23,West,Widget_A,SUP-06,220.73201941197195,-1.0,38.311615668391134,1,medium,isolation_forest_outlier
+2024-01-22,West,Widget_A,SUP-03,205.53317039025302,1.714571581833092,35.95589723637422,1,medium,isolation_forest_outlier
+2024-01-21,South,Widget_A,SUP-04,173.80086124198317,-1.0,36.508085154261686,1,medium,isolation_forest_outlier
+2024-01-17,West,Widget_D,SUP-03,174.54701023359524,2.266490830090797,41.16940794698577,1,medium,isolation_forest_outlier
+2024-01-16,North,Widget_A,SUP-01,197.3526678644438,1.005395230310428,39.406362858525235,1,medium,isolation_forest_outlier
+2024-01-09,West,Widget_A,SUP-04,195.45479218682473,0.9176869705146559,37.580659055590885,1,medium,isolation_forest_outlier
+2024-01-08,North,Widget_A,SUP-03,246.03878286351093,0.468648808831565,38.76179661265701,1,medium,isolation_forest_outlier
+2024-01-08,West,Widget_A,SUP-01,242.31528321252347,0.5206164630886408,41.324776985814026,1,medium,isolation_forest_outlier
+2024-01-07,South,Widget_B,SUP-03,130.0408196423834,2.7149183636188363,38.37849299811287,1,medium,delivery_delay_spike
+2024-01-04,North,Widget_E,SUP-04,79.987057619043,2.726101937000794,35.38890006739606,1,medium,delivery_delay_spike
+2024-01-01,West,Widget_A,SUP-06,196.69139249567377,1.5976664181239506,39.12024417012425,1,medium,isolation_forest_outlier
+2023-12-27,West,Widget_A,SUP-03,215.20971967151948,-0.4509176116451192,37.49811996799098,1,medium,isolation_forest_outlier
+2023-12-26,West,Widget_A,SUP-06,222.67259652599876,-0.8252399327853747,38.91249425502071,1,medium,isolation_forest_outlier
+2023-12-24,North,Widget_A,SUP-06,199.76250421506148,-1.0,35.57764018790508,1,medium,isolation_forest_outlier
+2023-12-21,North,Widget_A,SUP-06,209.88460921681212,-1.0,38.204189239420415,1,medium,isolation_forest_outlier
+2023-12-18,West,Widget_A,SUP-05,205.30923030955856,-1.0,33.28779871037375,1,medium,isolation_forest_outlier
+2023-12-11,West,Widget_A,SUP-03,199.42033144267012,-0.12016789259976954,36.894225923181445,1,medium,isolation_forest_outlier
+2023-12-10,West,Widget_A,SUP-06,190.48037690561497,2.168494523161456,40.80415604835329,1,medium,isolation_forest_outlier
+2023-12-08,North,Widget_A,SUP-02,157.7473565296421,2.313289782850139,40.83362674820118,1,medium,isolation_forest_outlier
+2023-11-25,South,Widget_B,SUP-02,77.91339438558207,2.5992546701457395,52.9663586426665,1,medium,transport_cost_spike
+2023-11-20,North,Widget_A,SUP-06,195.9368550597308,1.9809928248791342,39.967348196480195,1,medium,isolation_forest_outlier
+2023-11-13,North,Widget_A,SUP-05,194.27798538572713,0.5406706465962822,34.30292564081523,1,medium,isolation_forest_outlier
+2023-11-11,North,Widget_C,SUP-02,98.39360041090887,2.974948260513893,38.5433350210979,1,medium,delivery_delay_spike
+2023-10-17,East,Widget_A,SUP-05,163.67492614344948,1.7013254056859004,40.31156908668535,1,medium,isolation_forest_outlier
+2023-09-07,North,Widget_C,SUP-02,40.315629390990246,0.6943426442289007,42.43381104495707,1,medium,dbscan_noise_point
+2023-07-21,West,Widget_E,SUP-05,35.120506576234725,-1.0,28.71155692563154,1,medium,isolation_forest_outlier
+2023-06-20,East,Widget_E,SUP-05,30.783214083151776,-0.3685768154252722,28.904142052519475,1,medium,sudden_sales_drop
+2023-05-23,West,Widget_B,SUP-01,97.96984471037966,2.7864525713904653,41.184922858275456,1,medium,delivery_delay_spike
+2023-05-16,South,Widget_B,SUP-01,105.5463739123271,2.78714253921516,38.87868359911203,1,medium,delivery_delay_spike
+2023-03-18,North,Widget_B,SUP-01,127.07583649087954,2.841980565442646,40.46151811493688,1,medium,delivery_delay_spike
+2023-03-04,South,Widget_E,SUP-03,50.186049667069874,2.990681944079941,34.67139657176634,1,medium,delivery_delay_spike
+2023-01-14,East,Widget_A,SUP-06,134.41316848271745,2.818710244835047,38.13892674739498,1,medium,delivery_delay_spike
+2023-01-13,East,Widget_E,SUP-04,72.66734024181554,3.0210072254569917,43.02603360097507,1,medium,delivery_delay_spike
+2023-01-04,East,Widget_E,SUP-02,67.73526341182973,3.2021421200551425,36.27799527544804,1,medium,delivery_delay_spike
