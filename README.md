@@ -31,30 +31,7 @@ This project is an end-to-end decision support system for supply chain teams. It
 6. KPI output tables are generated for executive dashboards.
 7. A RAG copilot retrieves relevant context and generates business explanations.
 
-## Architecture
 
-```text
-Data Ingestion and Validation
-        |
-        v
-Feature Engineering
-        |
-        +--------------------+
-        |                    |
-        v                    v
-Demand Forecasting      Anomaly Detection
-        |                    |
-        +---------+----------+
-                  |
-                  v
-           Supplier Risk Scoring
-                  |
-                  v
-          KPI and Dashboard Exports
-                  |
-                  v
-      RAG Copilot (Embeddings + LLM)
-```
 
 ## Power BI Dashboard Screenshots
 
